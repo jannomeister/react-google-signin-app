@@ -5,7 +5,8 @@ import { GoogleLogin, GoogleLogout } from "react-google-login";
 import "./App.css";
 
 // please specify your google client id
-const GOOGLE_CLIENT_ID = "";
+const GOOGLE_CLIENT_ID =
+  "85019133806-3q2bapmhmimd7apsctkcca4i5hhvlls8.apps.googleusercontent.com";
 
 function App() {
   const [user, setUser] = React.useState(null);
